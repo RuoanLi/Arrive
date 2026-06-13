@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relocation Navigator Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Inter:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <p class="eyebrow">Relocation planner demo</p>
+        <h1 class="wordmark">Arrive</h1>
+        <p class="tagline">Know exactly what to do,<br>from the moment you land.</p>
+      </header>
+
+      <section class="panel form-panel">
+        <h2>Trip setup</h2>
+        <form id="planner-form">
+          <div class="grid-2">
+            <label>
+              Destination country
+              <input id="country" type="text" placeholder="e.g., Japan" required />
+            </label>
+
+            <label>
+              Length of stay (days)
+              <input id="days" type="number" min="1" max="1460" value="30" required />
+            </label>
+          </div>
+
+          <div class="grid-2">
+            <label>
+              Nationality
+              <input id="nationality" type="text" placeholder="e.g., Canadian" required />
+            </label>
+
+            <label>
+              Age
+              <input id="age" type="number" min="0" max="120" placeholder="e.g., 29" required />
+            </label>
+          </div>
+
+          <label>
+            Purpose
+            <select id="purpose" required>
+              <option value="tourism">Tourism</option>
+              <option value="work">Work</option>
+              <option value="study">Study</option>
+              <option value="move">Permanent Move</option>
+            </select>
+          </label>
+
+          <fieldset>
+            <legend>Bundle options (choose what applies)</legend>
+            <div class="bundle-grid">
+              <label><input type="checkbox" value="family" /> Family / dependents</label>
+              <label><input type="checkbox" value="pets" /> Pets</label>
+              <label><input type="checkbox" value="medication" /> Medication needs</label>
+              <label><input type="checkbox" value="driving" /> Plan to drive</label>
+              <label><input type="checkbox" value="banking" /> Multi-country banking</label>
+              <label><input type="checkbox" value="housing" /> Need housing setup</label>
+              <label><input type="checkbox" value="freelance" /> Freelance / remote work</label>
+              <label><input type="checkbox" value="high-value" /> High-value belongings</label>
+            </div>
+          </fieldset>
+
+          <button type="submit">Build my plan</button>
+        </form>
+      </section>
+
+      <section id="result" class="hidden">
+        <div class="summary panel">
+          <h2 id="summary-title"></h2>
+          <p id="summary-subtitle"></p>
+        </div>
+
+        <div class="panel">
+          <h2>Eisenhower Matrix</h2>
+          <div id="matrix" class="matrix-grid"></div>
+        </div>
+
+        <div class="panel">
+          <h2>Timeline</h2>
+          <p class="hint">Use this as your day-by-day checklist.</p>
+          <div id="timeline" class="timeline"></div>
+        </div>
+      </section>
+    </div>
+
+    <template id="task-card-template">
+      <article class="task-card">
+        <h4></h4>
+        <p class="meta"></p>
+        <p class="desc"></p>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
