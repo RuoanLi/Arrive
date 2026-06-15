@@ -1,4 +1,4 @@
-<img width="509" height="887" alt="image" src="https://github.com/user-attachments/assets/456c123d-6d4d-4d08-85f4-88d1423c945a" /># Arrive — Relocation & Travel Planner
+# Arrive — Relocation & Travel Planner
 
 > Know exactly what to do, from the moment you land.
 
@@ -10,21 +10,26 @@ Built as a single-page app with **vanilla JavaScript, HTML, and CSS** — no fra
 
 ## 🌐 Live Demo
 
-
-
 https://github.com/user-attachments/assets/4b35d242-c6d3-4879-b2ac-4cfe2946a82a
 
+---
 
+## 📸 Screenshots
 
-## 📸 Screenshot
-
-> <img width="438" height="828" alt="截屏2026-06-15 19 26 43" src="https://github.com/user-attachments/assets/8dec42a0-9431-4e9c-b9dc-27a56500200f" />
-
-> <img width="446" height="826" alt="截屏2026-06-15 19 27 00" src="https://github.com/user-attachments/assets/d98c431b-5740-4184-9f4c-45f3ee820c03" />
-
-
->
-> 
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/8dec42a0-9431-4e9c-b9dc-27a56500200f" alt="Trip setup form" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://github.com/user-attachments/assets/d98c431b-5740-4184-9f4c-45f3ee820c03" alt="Generated timeline" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub><b>Trip setup</b> — enter destination, stay length, purpose, and bundles</sub></td>
+    <td align="center"><sub><b>Prioritized plan</b> — tasks scored and mapped to a day-by-day timeline</sub></td>
+  </tr>
+</table>
 
 ---
 
