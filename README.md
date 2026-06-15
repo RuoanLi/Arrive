@@ -1,4 +1,4 @@
-# Arrive — Relocation & Travel Planner
+<img width="509" height="887" alt="image" src="https://github.com/user-attachments/assets/456c123d-6d4d-4d08-85f4-88d1423c945a" /># Arrive — Relocation & Travel Planner
 
 > Know exactly what to do, from the moment you land.
 
@@ -10,15 +10,21 @@ Built as a single-page app with **vanilla JavaScript, HTML, and CSS** — no fra
 
 ## 🌐 Live Demo
 
-> Add your link here after enabling GitHub Pages (Settings → Pages → deploy from `main`):
->
-> **https://<your-username>.github.io/<repo-name>/**
+
+
+https://github.com/user-attachments/assets/4b35d242-c6d3-4879-b2ac-4cfe2946a82a
+
+
 
 ## 📸 Screenshot
 
-> Replace with a real screenshot once deployed:
+> <img width="438" height="828" alt="截屏2026-06-15 19 26 43" src="https://github.com/user-attachments/assets/8dec42a0-9431-4e9c-b9dc-27a56500200f" />
+
+> <img width="446" height="826" alt="截屏2026-06-15 19 27 00" src="https://github.com/user-attachments/assets/d98c431b-5740-4184-9f4c-45f3ee820c03" />
+
+
 >
-> `![Arrive screenshot](docs/screenshot.png)`
+> 
 
 ---
 
