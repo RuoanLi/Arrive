@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh.md)
+
 # Arrive — Relocation & Travel Planner
 
 > Know exactly what to do, from the moment you land.
